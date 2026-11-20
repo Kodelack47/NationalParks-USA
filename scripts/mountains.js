@@ -1,3 +1,4 @@
+/* Author: Ousmana Tunkara · github.com/Kodelack47 · National Parks USA */
 mountainsArray.forEach(mountain => {
     console.log(mountain.name)
     let mo = document.createElement("option")
