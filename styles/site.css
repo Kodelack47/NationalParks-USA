@@ -396,6 +396,12 @@ textarea:focus {
 
 /* ---------- Mountains ---------- */
 
+.mountain-detail,
+.notice {
+  /* Keep scrolled-to content clear of the sticky header */
+  scroll-margin-top: 84px;
+}
+
 .mountain-detail {
   display: grid;
   grid-template-columns: 340px 1fr;
